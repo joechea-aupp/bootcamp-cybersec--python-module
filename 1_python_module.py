@@ -1,4 +1,5 @@
 import math
+import inspect
 
 print("square root of 16", math.sqrt(16))
 
@@ -8,3 +9,5 @@ print('round down number: ', math.floor(dec_number))
 print('original number: ', dec_number)
 
 # print(dir(math))
+
+print(inspect.getfile(math))
